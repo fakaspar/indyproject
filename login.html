@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms Exercise:Slides</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form class="" action="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" method="get">
+      <label for="First name">First Name</label>
+      <input id="First Name" type="text" name="First name" placeholder="text" required>
+      <label for="Last Name">Last Name</label>
+      <input id="Last name" type="text" name="First name" placeholder="text" required >
+    <div class=""Gender"">
+      <label for="Male">Male</label>
+      <input name="Gender"id="Male" type="radio" value="Male" />
+      <label for="Female">Female</label>
+      <input name="Gender"id="Female" type="radio" value="Female" />
+      <label for="Other">Other</label>
+      <input name="Gender"id="Other" type="radio" value="Other" />
+      </div>
+    <div class="Login">
+      <label for="usermane">
+        Email
+      <input id="username" type="email" name="email" placeholder="email" required>
+      </label>
+      <label for="password">
+        Password
+      <input id="password" type="password" name="Password" placeholder="password" pattern=".{10}" title=" password must be 10 characters" required>
+    </label>
+    </div>
+    <div class="Birthday">
+      Birthday:
+      <select class="Birthday" name="Birthday" >
+        <label>Month</label>
+        <option value="Month">Jan</option>
+        <option value="Month">Feb</option>
+        <option value="Month">Mar</option>
+        <option value="Month">Apr</option>
+        <option value="Month">May</option>
+        <option value="Month">Jun</option>
+      </select>
+      <select class="Birthday" name="Birthday" >
+        <option value="Day">1</option>
+        <option value="Day">2</option>
+        <option value="Day">3</option>
+        <option value="Day">4</option>
+        <option value="Day">5</option>
+        <option value="Day">6</option>
+      </select>
+      <select class="Birthday" name="Birthday">
+        <option value="Year">1991</option>
+        <option value="Year">1991</option>
+        <option value="Year">1993</option>
+        <option value="Year">1994</option>
+        <option value="Year">1995</option>
+        <option value="Year">1996</option>
+      </select>
+    </div>
+    <div class="agreed">
+      <label for="validation">I agreed to terms and conditions</label>
+      <input name="checkbox" id="agreed" type="checkbox" value="agreed" />
+      <section>
+      <input type="submit">
+      </section>
+    </div>
+
+    </form>
+
+  </body>
+</html>

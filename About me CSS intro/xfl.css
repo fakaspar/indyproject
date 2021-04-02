@@ -1,0 +1,17 @@
+
+h1 {
+color:#ff0000;
+border: 2px purple solid;
+}
+li {
+  color:yellow;
+}
+h4{
+  background: rgb(225,100,80);
+  color:green;
+}
+body {
+  background: url(IMG_9229.jpg);
+  background-repeat: no-repeat;
+  background-size: 20000px
+}
